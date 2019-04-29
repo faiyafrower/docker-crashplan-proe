@@ -8,7 +8,7 @@ RUN apt-get update && apt-get install -y \
     libgconf2-4 \
     libnss3 \
     libasound2 \
-    libcanberra-gtk-module \
+    libcanberra-gtk-module
 # For testing purposes
 #    vim \
 #    firefox
