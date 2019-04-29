@@ -26,4 +26,4 @@ RUN chmod 755 silentinstall.sh
 
 # Run the silent installer and make sure the CrashPlan service is running
 RUN ./silentinstall.sh
-RUN service start crashplan
+RUN service crashplan start
